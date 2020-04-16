@@ -40,7 +40,7 @@ brew services start postgresql
 Change the database name to whatever you would like to name the database. Be sure to also change the database name in server.js to whatever you name the database.
 
 ```
-createdb crud-starter-api
+createdb type name of database
 ```
 
 **6. Create a database table**
