@@ -48,7 +48,7 @@ createdb crud-starter-api
 Open pSequel and run the following command. Change the table name to whatever you would like to name the table.
 
 ```
-CREATE TABLE testtable1 (
+CREATE TABLE employee (
  id serial PRIMARY KEY,
  first_name VARCHAR(100),
  last_name VARCHAR(100),
