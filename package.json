@@ -1,7 +1,7 @@
 {
-  "name": "crudpractice1",
+  "name": "backendm20",
   "version": "1.0.0",
-  "description": "crud practice",
+  "description": "backend m20 practice",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
