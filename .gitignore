@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/log
 
 # misc
 .DS_Store
