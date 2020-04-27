@@ -45,17 +45,16 @@ createdb type name of database
 
 **6. Create a database table**
 
-Open pSequel and run the following command. Change the table name to whatever you would like to name the table.
+Open Psql(Sql shell) and run the following command. Change the table name to whatever you would like to name the table.
 
 ```
-CREATE TABLE employee (
- id serial PRIMARY KEY,
- first_name VARCHAR(100),
- last_name VARCHAR(100),
+CREATE TABLE student (
+ user_id VARCHAR(255),
+ full_name VARCHAR(255),
+ section VARCHAR(255),
+ year VARCHAR(255),
  email text UNIQUE NOT NULL,
  phone VARCHAR(100),
- city VARCHAR(100),
- company_name VARCHAR(100),
  added TIMESTAMP NOT NULL
 );
 ```
